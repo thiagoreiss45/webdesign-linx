@@ -17,4 +17,8 @@ Para abrir o projeto, basta clonar o repositório e abrir o arquivo index.html.
 $ git clone https://github.com/thiagoreiss45/webdesign-linx
 ```
 
+## Sobre pré-processadores
+
+Como nunca tinha trabalhado com pré-processadores CSS, optei por não utilizar nesse projeto.
+
 
