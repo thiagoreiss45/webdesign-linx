@@ -3,6 +3,7 @@
         display: grid;
         justify-content: center; 
         grid-template-columns: repeat(2, 1fr);      
+        margin:3rem 20%;
     }
     .card{
         margin:auto;
