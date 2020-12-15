@@ -1,0 +1,99 @@
+.card-section{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* column-gap: 20px; */
+    row-gap: 40px;
+    margin:3rem auto;
+}
+
+    .card{
+        height: 27rem;
+        display: grid;
+        flex-direction: column;
+        width: 233px;
+        flex:1;
+        margin: 2rem 1.3rem;
+        border-style: solid;
+        border-width: 1px;
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+        .card-img{
+            height: 13rem;
+            width: 14.5rem;
+            margin-bottom: 1rem;
+        }
+        .card-body{
+            display: flex;
+            flex-direction: column;
+        }
+        .short-deadline{
+            font-weight: bold;
+            font-size: .8rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: -12rem;
+            margin-left: -2rem;
+            background-color: #422755;
+            color:white;
+            height: 2rem;
+            width: 7rem;
+            border-top-right-radius: .6rem;
+            border-bottom-right-radius: .6rem;
+        }
+        .card h3{
+            color:#414141;
+            font-size: 1.1rem;
+            margin-bottom: .5rem;
+        }
+        .card p{
+            font-size: .9rem;
+            margin-bottom: 1rem;
+            height: 3rem
+        }
+        .card-description{
+            height: 35%;
+        }
+            #invisible {
+                font-weight: bold;
+                font-size: 1.3rem;
+                color:transparent;
+            }
+                #invisible h3{
+                    display: inline;
+                    font-size: .9rem;
+                    color: transparent;
+                }
+        .card button{
+            font-size: 1.3rem;
+            font-weight: bold;
+            color:#422755;
+            background-color: transparent;
+            border-radius: .6rem;
+            height: 3rem;
+            margin-top: 3.2rem;
+            width: 100%;
+            border-color: #422755;
+            cursor: pointer;
+            transition-duration: .3s;
+        }
+        .card button:hover{
+            background-color:#422755;
+            color:white;
+        }
+        .inclusion-date{
+            font-size: .7rem;
+            margin-top: .7rem;
+            color:#414141;
+        }
+
+        .deadline-date{
+            font-weight: bold;
+            font-size: 1.3rem;
+            color:red;
+        }   
+            .deadline-date h3{
+                display: inline;
+                font-size: .9rem;
+            }
