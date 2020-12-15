@@ -1,0 +1,51 @@
+.body-section{
+    max-width: 80rem;
+    margin:0 auto;
+}
+
+.search{
+    background-color: #feaf3d;
+    display: flex;
+    flex-direction: row;
+    height: 5rem;
+    margin-top: 3rem;
+    border-radius: .7rem;
+    justify-content: space-around;
+    align-items: center;
+
+}
+    .search-elements{
+        width: 20rem;
+        height: 2rem;
+        display: flex;
+    }
+        .search-elements *{
+            height: 100%;
+            width: 100%;
+            border-color: transparent;
+            border-radius: .5rem;
+        }
+
+        /* BUSQUE TARFEAS */
+        .search-elements form button{
+            width: 20%;
+            height: 2.45rem;
+            margin-left: -1rem;
+            background-color:#6e4b87;
+            color: white;
+        }
+        .search-elements form input{
+            width: 70%;
+            padding-left: 1rem;
+        }
+        /* ORGANIZAR POR */
+        .search-elements div{
+            width: 50%;
+            display: flex;
+            align-items: center;
+            color: white;
+        }
+        .search-elements select{
+            width: 70%;
+            padding-left: 1rem;
+        }

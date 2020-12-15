@@ -1,0 +1,59 @@
+@media (max-width:1200px){
+    .card-section{
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(2,21rem)
+       
+    }
+}
+/* @media (min-width:860px){
+    .card p{
+        height: 1.5rem;
+    }
+} */
+@media (max-width:860px){
+    .card-section{
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(1 ,30rem);
+        height: auto;
+    }
+    .card {
+        flex-direction: row;
+        height: 12rem;
+        margin: 2rem auto;
+    }
+        .card-description{
+            width: 100%;
+        }
+        .card-section img{
+            margin-right: 2rem;
+            height: 12rem;
+            margin-bottom: .8rem;
+        }
+        .card p{
+            margin-bottom: .4rem;
+        }
+        .card-body{
+            margin-left: 1rem;
+        }
+        .card-img{
+            width: 1rem;
+        }
+    #whoWeAre{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    #whoWeAre p{
+        margin:3rem;
+    }
+    #whoWeAre img{
+        margin: 0 auto;
+    }
+    .search{
+        flex-direction: column;
+        margin:.7rem;
+        height: 10rem;
+    }
+}

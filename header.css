@@ -1,0 +1,25 @@
+@import url("search.css");
+@import url("cards.css");
+@import url("footer.css");
+@import url("mobile.css");
+
+*{
+    margin:0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header-title{
+    font-size: 1.4rem;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 9rem 1rem;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(181.3deg, #422755 86%, rgba(255,255,255,1) 86.4%);
+}
+    .header-title h1{
+        margin-bottom: 1.8rem;
+        font-weight: 700;
+    }
